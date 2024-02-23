@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+#input{
+    background-color: #A9A9A9;
+    border: 2px dashed black;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.lists {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+}
+
+#prime{
+    background-color: #fc900b;
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+#notprime{
+    background-color: #8062db;
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
